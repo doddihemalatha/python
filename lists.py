@@ -1,0 +1,19 @@
+a=[1,2,3,4,5]
+print(a)
+print(min(a))
+print(max(a))
+print(len(a))
+b=[6,7,8,9,10]
+print(b.count(7))
+print(a.index(3))
+print(sum(b)/len(b))
+print(sum(a))
+c=[11,12,13,14,15]
+c.append(26)
+print(c)
+c.remove(13)
+print(c)
+c.reverse()
+print(c)
+print(c[2:4])
+print(13 in c)
